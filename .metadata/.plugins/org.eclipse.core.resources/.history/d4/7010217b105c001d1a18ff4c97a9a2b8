@@ -1,0 +1,28 @@
+package com.xworkz.accountapp.account;
+
+import com.xworkz.accountapp.BankAccount;
+
+public class AccountTester {
+
+	public static void main(String a[]) {
+		
+		BankAccount account = new BankAccount();
+		account.deposite(5000);
+		System.out.println("My Account Balance is"+account.balance);
+		
+		
+		BankAccount friendsAccount = new BankAccount();
+		friendsAccount.deposite(700);
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+}

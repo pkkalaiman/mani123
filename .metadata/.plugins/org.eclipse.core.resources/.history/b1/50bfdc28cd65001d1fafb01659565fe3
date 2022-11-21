@@ -1,0 +1,22 @@
+package com.xworkz.inheritence;
+
+public class MangoTester {
+
+	public static void main(String[] args) {
+		
+		boolean Mangor(String mango, String flaver, int flaver1) {
+			
+		}
+		
+		Mango Mango=new Mango();
+		Mango.MangoflaverName();
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

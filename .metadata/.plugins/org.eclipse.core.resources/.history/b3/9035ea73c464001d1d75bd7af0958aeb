@@ -1,0 +1,9 @@
+package com.xworkz.engineerapp.CsEngineer;
+
+public class CsEngineer extends EcEngineer {
+	
+	public void solveProblems() {
+		System.out.println("Solving Problems by Cs Engineer");
+	}
+
+}

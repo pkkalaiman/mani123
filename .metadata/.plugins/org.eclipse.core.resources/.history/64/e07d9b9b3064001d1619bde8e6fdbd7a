@@ -1,0 +1,28 @@
+package com.xworkz.constructorapps.constructorapp;
+
+public class TeaStall{
+	
+	//TODO Auto- generated constructor stub
+
+	public int teastallId;
+	public String name;
+	public String ownerName;
+
+		
+	public TeaStall() {
+		//TODO Auto- generated constructor stub
+		
+	}
+	public void displayInfo() {
+	
+		System.out.println("welcome to teastall");
+		
+		
+		
+}
+	
+	
+	
+	
+	
+}

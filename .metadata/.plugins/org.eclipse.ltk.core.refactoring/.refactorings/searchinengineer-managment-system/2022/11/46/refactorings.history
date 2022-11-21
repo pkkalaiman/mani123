@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;searchinengineer-managment-system/src/com/xworkz/searchingengineerapp/searchingapp/SearchingTester.java&apos; to &apos;SearchingeerTester.java&apos;" description="Rename resource &apos;SearchingTester.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/xworkz/searchingengineerapp/searchingapp/SearchingTester.java" name="SearchingeerTester.java" stamp="1667736170925" updateReferences="true"/>
+</session>

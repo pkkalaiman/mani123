@@ -1,0 +1,9 @@
+package com.xworkz.engineerapp.engineer;
+
+public class Engineer {
+	
+	public void solveProbelms() {
+		System.out.println("Solving Problems By Engineer");
+	}
+	
+}

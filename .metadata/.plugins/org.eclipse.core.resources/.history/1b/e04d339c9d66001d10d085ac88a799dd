@@ -1,0 +1,16 @@
+package com.xworkz.integerapp;
+
+public class Integer {
+	
+	public static void main(String[] args) {
+		
+		int a = 1234;
+		int b = -1234;
+		
+		
+		String str1 = Integer.String(a);
+		
+		
+	}
+
+}

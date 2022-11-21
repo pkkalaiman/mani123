@@ -1,0 +1,68 @@
+package com.xworkz.bankaccounapp.bankapp;
+
+import com.xworkz.bankaccounapp.saveingsAccount.SavingsAccount;
+public class BankTester {
+
+	public static class BankAccountTester{
+		
+		public static void main(String[] args) {
+			 //object             //constructor
+			BankAccount draw=new BankAccount();
+			draw.deposit(5000);
+			System.out.println("Account balance:"+draw.getbalance);
+			draw.withDraw(250);
+			
+			
+			BankAccount friendsAccouont=new BankAccoount() {
+			System.out.println("Account balance after withDraw:"+draw.getbalance);
+			draw.deposit(10000);
+			
+			draw.withDraw(2000);
+			System.out.println("Account balance after withDraw:"+draw.getbalance);
+			
+			draw.withDraw();
+			System.out.println("balance:"+draw.getbalance);
+			
+			draw.withDraw(10000);
+			System.out.println("balance:"+draw.getbalance);
+			
+			BankAccount friendsAccount=new BankAccount();
+			
+			friendsAccount.deposit(700);
+			System.out.println("the friendsAccount balance is"+friendsAccount.getbalance);
+			draw.transfer(600,friendsAccount);
+			
+			
+			System.out.println("balance of friends Account after transfer"+friendsAccount.getbalance);
+			
+			System.out.println("total balance"+draw.getbalance);
+			
+			
+			// Inheritance: acquiring properties from one class to another class-i.e from perent to child/supper to sub class
+			//base to derived class
+			// is -a relationship
+			//extends
+			//class level
+			
+			SavingsAccount save = new SavingsAccount();
+			save.deposit(5000);
+			save.withDraw(200);
+			System.out.println("total balance"+save.getbalance);
+			
+			SavingsAccount maaAccount =new SavingsAccount();
+			maaAccount.deposit(2000);
+			
+			save.transfer(2000,maaAccount);
+			System.out.println(maaAccount.getbalance); 	
+			
+			
+		
+			}		
+			
+	}
+	
+	
+	}
+	
+	
+}

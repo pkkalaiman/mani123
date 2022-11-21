@@ -1,0 +1,35 @@
+package com.xworkz.coffeeapp;
+
+public class BruCoffee {
+	
+	private String restourentName;
+	private String coustomerName[];
+	private String flaver;
+	
+	
+	public BruCoffee(String restourentName, String coustomerName[]; String flaver) {
+		
+		System.out.println("BruCoffee object is created");
+		
+		this.coffeeName= coffeeName;
+		this.coustomerName = coustomerName;
+		this.flaver = flaver;
+		
+	}
+	
+	public void displyDetials() {
+		
+		System.out.println("restourent Name:"+this.restourentName);
+		System.out.println("coustomer Name:"+this.coustomerName);
+		System.out.println("flaver:"+this.flaver);
+		System.out.println("List of coffee falavers to the restourent");
+		
+    for(int i=0;i<coustomerName.length;i++) {
+			
+			System.out.println(coustomerName[i]);
+    }
+    
+	}
+	
+
+}

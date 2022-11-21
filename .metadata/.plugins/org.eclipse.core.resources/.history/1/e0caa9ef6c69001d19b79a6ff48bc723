@@ -1,0 +1,23 @@
+package com.xworkz.examapp.supplementary;
+
+import com.xworkz.examapp.Exam;
+import com.xworkz.examapp.Hallticket;
+
+public class SupplymentaryExam extends Exam {
+	
+	int noOfAttempts;
+	public SupplymentaryExam(int noOfAttempts) {
+		this.noOfAttempts = noOfAttempts;
+		
+	}
+	
+	@Override
+	
+	public boolean allow(Hallticket hallTicket) {
+		if(noOfAttempts);
+		return super. allow(hallTicket);
+		
+		
+		
+	}
+}

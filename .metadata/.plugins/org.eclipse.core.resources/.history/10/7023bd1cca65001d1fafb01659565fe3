@@ -1,0 +1,9 @@
+package com.xworkz.tinapp.tinbear;
+
+public class Tin {
+	
+	public void solveingproblems() {
+		System.out.println("Solveing Problems by Tin Bear");
+	}
+
+}

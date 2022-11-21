@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.xworkz.theatrs.CinemaTheatrs"/>
+    <fullyQualifiedTypeName name="com.wxorkz.bankapp.BankAccount"/>
+    <fullyQualifiedTypeName name="com.xworkz.accountapp.BankAccount"/>
+    <fullyQualifiedTypeName name="com.xworkz.maniaccountapp.ManiAccount"/>
+    <fullyQualifiedTypeName name="com.xworkz.searchingengineerapp.SearchingEngineer"/>
+    <fullyQualifiedTypeName name="com.xworkz.bankaccounapp.bankapp.BankAccount"/>
+    <fullyQualifiedTypeName name="com.xworkz.bankaccounapp.saveingsAccount.SavingsAccount"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Hospital"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Patient"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.Gender"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.petient.Patient"/>
+    <fullyQualifiedTypeName name="com.xworkz.tinapp.cocacola.CocaCola"/>
+    <fullyQualifiedTypeName name="com.xworkz.tinapp.cocacola.Redbull.RedBull"/>
+    <fullyQualifiedTypeName name="com.xworkz.inheritence.Mango"/>
+    <fullyQualifiedTypeName name="com.xworkz.examapp.Exam"/>
+    <fullyQualifiedTypeName name="com.xworkz.examapp.Hallticket"/>
+    <fullyQualifiedTypeName name="com.xworkz.examapp.supplementary.SupplymentaryExam"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package com.xworkz.coffeeapp;
+
+public class CoffeeTester {
+
+	public static void main(String[] args) {
+		
+		public BruCoffee[]{"mani", "Instanc Coffee", "Light cofee", "TickCofee"};
+		
+		BruCoffee bru=new BruCoffee("InstanceCoffee", "Mani", 1200. "MultiNationala");
+		
+		
+	}
+}
