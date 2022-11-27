@@ -35,6 +35,10 @@ public class MedicalShopTester {
 		med.billingMethod[0] = "cash";
 		med.billingMethod[2] = "card";
 		
+		System.out.println("gst No is:"+med.gstNo);
+		System.out.println("address is :"+med.address);
+		
+		
 		
 				med.displayInfo();
 		

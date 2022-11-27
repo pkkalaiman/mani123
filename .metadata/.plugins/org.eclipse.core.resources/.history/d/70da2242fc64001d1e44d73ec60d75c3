@@ -1,8 +1,0 @@
-package com.xworkz.hospitalapp.petient;
-
-public enum Gender {
-	
-	male,female,gender;
-	
-
-}

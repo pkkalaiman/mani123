@@ -22,7 +22,7 @@ public class Hotel {
 		this.address = address;
 		this.staffNames = staffNames;
 		this.staffContactNo = staffContactNo;
-		this.foodNames = staffNames;
+		this.foodNames = foodNames;
 		this.billingMethods =billingMethods;
 		this.noOfSection =noOfSection;
 
@@ -68,4 +68,4 @@ public class Hotel {
 	
 	
 	
-}
+

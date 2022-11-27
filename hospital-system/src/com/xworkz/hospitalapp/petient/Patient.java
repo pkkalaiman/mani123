@@ -7,6 +7,8 @@ public class Patient {
 	public String patientName ;
 	public String adress ;
 	public  Gender gender ;
+	public int age;
+	public String address;
 	
 	public Patient( String patientName, String adress, Gender gender) {
 		
@@ -15,6 +17,10 @@ public class Patient {
 		this.adress = adress;
 		this.gender = gender;
 	
+	}
+
+	public Patient() {
+		// TODO Auto-generated constructor stub
 	}
 
 	public void displayInfo() {

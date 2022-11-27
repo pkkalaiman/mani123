@@ -8,18 +8,31 @@ public class EngineerTester {
 	
 	public static void main(String[] args) {
 		
-		//polymorphism
-		Object object =new EcEngineer();
 		
+		//casting 
+		
+		//converting from the parent to child-- do it explicitly
+		Engineer engineer =new Engineer();
+		
+		//polymorphism -- // implicit
+		
+		EcEngineer ecEngineer = (EcEngineer) engineer;
+		
+	
+		
+		//polymorphism
+		
+		Object object =new EcEngineer();
 		Object object2 =new EcEngineer();
-		EcEngineer ecEngineer =new EcEngineer();
-		ecEngineer.solveProbelms();
+		
+		EcEngineer ecEngineer1 =new EcEngineer();
+		ecEngineer1.solveProbelms();
 		
 		Object object1 =new CsEngineer();
-		
 		Object object11 =new CsEngineer();
+		
 		CsEngineer csengineer =new CsEngineer();
-		csengineer.solveProblems();
+		csengineer.solveProbelms();
 		
 		
 	}

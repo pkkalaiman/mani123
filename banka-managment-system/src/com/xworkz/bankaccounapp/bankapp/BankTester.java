@@ -1,6 +1,7 @@
 package com.xworkz.bankaccounapp.bankapp;
 
 import com.xworkz.bankaccounapp.saveingsAccount.SavingsAccount;
+
 public class BankTester {
 
 	public static class BankAccountTester{
@@ -38,7 +39,7 @@ public class BankTester {
 			System.out.println("total balance"+draw.getbalance);
 			
 			
-			// Inheritance: acquiring properties from one class to another class-i.e from perent to child/supper to sub class
+			// Inheritance: acquiring properties from one class to another class-i.e from parent to child/supper to sub class
 			//base to derived class
 			// is -a relationship
 			//extends

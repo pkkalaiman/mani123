@@ -4,9 +4,19 @@ public class Engineer {
 	
 	// methods
 	
-	//@override
+
 	public void solveProbelms() {
-		System.out.println("Solving Problems By Engineer");
+		System.out.println("solving problems Engineer");
+		
+	}
+
+	public void buildSoftwar() {
+		
+		System.out.println("build Softwar desinging the mechine");
+		
+	}
+
+
+		
 	}
 	
-}

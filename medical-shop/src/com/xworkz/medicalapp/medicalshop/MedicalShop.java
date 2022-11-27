@@ -19,7 +19,7 @@ public class MedicalShop {
 	}
 
  public MedicalShop(String gstNo, String address, String name, String[] staffNames, long[] staffContactNo,
-			String[] medicineNames, String[] cosmetics, int noOfSections, String[] billingMethod) {
+			String[] medicineNames, String[] cosmetics, int[] noOfSections, String[] billingMethod) {
 			this.gstNo = gstNo;
 			this.address = address;
 			this.name = name;

@@ -10,13 +10,24 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Hospital"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Patient"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.Gender"/>
-    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.petient.Patient"/>
     <fullyQualifiedTypeName name="com.xworkz.tinapp.cocacola.CocaCola"/>
     <fullyQualifiedTypeName name="com.xworkz.tinapp.cocacola.Redbull.RedBull"/>
     <fullyQualifiedTypeName name="com.xworkz.inheritence.Mango"/>
     <fullyQualifiedTypeName name="com.xworkz.examapp.Exam"/>
     <fullyQualifiedTypeName name="com.xworkz.examapp.Hallticket"/>
     <fullyQualifiedTypeName name="com.xworkz.examapp.supplementary.SupplymentaryExam"/>
+    <fullyQualifiedTypeName name="com.xworkz.beachapp.Beach"/>
+    <fullyQualifiedTypeName name="com.xworkz.userapp.user.User"/>
+    <fullyQualifiedTypeName name="com.xworkz.designapp.FinolexWiresDtoTester"/>
+    <fullyQualifiedTypeName name="com.xworkz.dtoapp.Dto.Dto"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="com.xworkz.designapp.FinolexWiresDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.doctor.SurGering"/>
+    <fullyQualifiedTypeName name="com.xworkz.designapp.FinoTester"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Hospital1"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.petient.Patient"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.Gender"/>
+    <fullyQualifiedTypeName name="com.xworkz.engineerapp.engineer.Engineer"/>
 </qualifiedTypeNameHistroy>

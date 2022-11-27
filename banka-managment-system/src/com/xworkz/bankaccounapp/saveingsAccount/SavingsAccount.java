@@ -15,7 +15,7 @@ public class SavingsAccount extends BankAccount
 	}
 	
 	//SavingsAccount specific method
-	public void SavingAccount (double interestName, double interestRate) {
+	public void SavingAccount () {
 		this.interestRate=interestRate;
 		
 	}

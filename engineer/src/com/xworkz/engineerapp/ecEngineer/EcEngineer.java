@@ -4,9 +4,12 @@ import com.xworkz.engineerapp.engineer.Engineer;
 
 public class EcEngineer extends Engineer {
 
-	public void solveProblems() {
+	
+	
+	@Override
+	public void solveProbelms() {
 		
-		System.out.println("Solving Problems by Ec Engineer");
+	System.out.println("Solving Problems by Ec Engineer");
 	}
 
 	

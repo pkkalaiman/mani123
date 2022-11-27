@@ -1,9 +1,13 @@
 package com.xworkz.engineerapp.CsEngineer;
 
-public class CsEngineer {
+import com.xworkz.engineerapp.engineer.Engineer;
+
+public class CsEngineer extends Engineer{
 	
-	public void solveProblems() {
-		System.out.println("Solving Problems by Cs Engineer");
+
+	public void solveProbelms() {
+	System.out.println("salving problems by Cs Engineer");
+		
 	}
 
 }
