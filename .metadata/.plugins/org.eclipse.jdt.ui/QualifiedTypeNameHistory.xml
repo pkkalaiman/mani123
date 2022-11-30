@@ -30,4 +30,8 @@
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.petient.Patient"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.Gender"/>
     <fullyQualifiedTypeName name="com.xworkz.engineerapp.engineer.Engineer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="com.sun.beans.introspect.PropertyInfo.Name"/>
+    <fullyQualifiedTypeName name="javax.xml.crypto.dsig.spec.C14NMethodParameterSpec"/>
+    <fullyQualifiedTypeName name="java.awt.geom.Area"/>
 </qualifiedTypeNameHistroy>
