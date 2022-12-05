@@ -6,11 +6,12 @@ public class CoffeeTester {
 		
 		String coustomerName[] ={"Mani", "Sarath", "Pavankumar", "Kamal"};
 		
-		BruCoffee bru=new BruCoffee("InstanceCoffee", "Mani", 1200. );
+		BruCoffee bru=new BruCoffee("InstanceCoffee", "Mani", 1200.);
 		
 		Coffee co=new Coffee();
-		co.amount=1200;
-		co.Allow(bru);
+		co.amount=1245;
+		
+		
 		
 		
 		

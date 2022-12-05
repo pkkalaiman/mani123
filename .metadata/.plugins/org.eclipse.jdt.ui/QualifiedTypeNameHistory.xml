@@ -20,13 +20,10 @@
     <fullyQualifiedTypeName name="com.xworkz.userapp.user.User"/>
     <fullyQualifiedTypeName name="com.xworkz.designapp.FinolexWiresDtoTester"/>
     <fullyQualifiedTypeName name="com.xworkz.dtoapp.Dto.Dto"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="com.xworkz.designapp.FinolexWiresDto"/>
     <fullyQualifiedTypeName name="com.xworkz.doctor.SurGering"/>
     <fullyQualifiedTypeName name="com.xworkz.designapp.FinoTester"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Hospital1"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.petient.Patient"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.Gender"/>
     <fullyQualifiedTypeName name="com.xworkz.engineerapp.engineer.Engineer"/>
@@ -34,4 +31,13 @@
     <fullyQualifiedTypeName name="com.sun.beans.introspect.PropertyInfo.Name"/>
     <fullyQualifiedTypeName name="javax.xml.crypto.dsig.spec.C14NMethodParameterSpec"/>
     <fullyQualifiedTypeName name="java.awt.geom.Area"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.xworkz.atmapp.ProjectATM.MainClass.Interface.AtmOparationInterf"/>
+    <fullyQualifiedTypeName name="com.xworkz.atmapp.ProjectATM.Atm"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="com.xworkz.atmapp.ProjectATM.MainClass.Interface.AtmOparationImple"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>

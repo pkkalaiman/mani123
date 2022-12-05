@@ -9,12 +9,12 @@ public static void main(String args[]) {
 		
 		PetrolBunk Bunk =new PetrolBunk(123 , "Devendra PetrolBunk" , "Bhanssankari 2nd street", workersName);
 
+		System.out.println("Bunk.id"+" "+Bunk.id);
+		System.out.println("Bunk.name"+" "+Bunk.name);
+		System.out.println("Bunk.location"+" "+Bunk.location);
+		System.out.println("Bunk.workersName"+" "+Bunk.workersName);
 		
 		
 }
-
-		System.out.println("bunk.id"+" "+ bunk.Name);
-		
-	
 	
 }

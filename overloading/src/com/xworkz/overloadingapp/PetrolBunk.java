@@ -5,6 +5,9 @@ public class PetrolBunk {
 	public int id;
 	public String name;
 	public String location;
+	public String workersNames;
+	
+	
 	public String workersName[] = new String[7];
 	
 	//Default Constructor
