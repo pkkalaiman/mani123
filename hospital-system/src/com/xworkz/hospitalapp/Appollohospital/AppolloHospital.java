@@ -8,6 +8,7 @@ public class AppolloHospital<patient> extends Hospital1 {
 	// one to many
 	
 		public Patient[] patients;
+		int size[];
 		int index;
 		
 		public AppolloHospital()
@@ -21,6 +22,7 @@ public class AppolloHospital<patient> extends Hospital1 {
 		}
 		
 		public boolean addPatients(Patient patient)
+		
 		{
 			System.out.println("inside addpatient method");
 			boolean isPatientAdded = false;
@@ -42,11 +44,28 @@ public class AppolloHospital<patient> extends Hospital1 {
 			System.out.println("List the patients are ");
 			for (int i = 0; i < patients.length; i++) {
 				
-				System.out.println(patients[i].patientName + " " +patients[i].age + " " +patients[i].adress + " "  +patients[i].gender);
+			System.out.println(patients[i].patientName + " " +patients[i].age + " " +patients[i].adress + " "  +patients[i].gender);
 				
 			}
 		}
 
+		//it is DTO input to this
+		/*public void getPatientByName(String patientName) {
+			
+			System.out.println("Inside getPaientName");
+			System.out.println("No of parameters : 1 : patientName(String");
+			for(int i=0; i<patients.length;i++) {
+		
+				if(patients[i].getpatientName().equal(patientName)) {
+					
+					System.out.println(patient);
+					
+				}
+				
+			}
+		}*/
 	}
-
+		//getpatientByAge(int age)
+		//getGenderByGender(Gender gender)
+        //getPatientByAddress(address)
 

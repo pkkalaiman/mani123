@@ -24,7 +24,7 @@ public class StringPattern {
 				 
                     for(int row=1;row<=5;row++) {
 	        		 
-	        		 for(int col=1;col<=5;col++) {
+	        		  for(int col=1;col<=5;col++) {
 	        			 
 	        			 if( row==3 && col==2 || row==2 && col==3 || row==3 && col==2  ||row==3 && col==4 || row==4 && col==3) {
 	        				 

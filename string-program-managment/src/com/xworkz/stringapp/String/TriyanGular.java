@@ -11,7 +11,7 @@ public class TriyanGular {
 	   
 	   for(int i=n.length-1;i>=3;i--) {
 		   
-		   System.out.println("ojr");
+		   System.out.println("mani");
 		   
 	   }
 	  

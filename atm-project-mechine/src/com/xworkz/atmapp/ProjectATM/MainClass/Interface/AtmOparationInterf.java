@@ -8,5 +8,6 @@ public interface AtmOparationInterf {
 	public void miniStatement();
 	
 	
-
+	
+	
 }

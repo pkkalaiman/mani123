@@ -1,6 +1,6 @@
 package com.xworkz.hospitalapp.Appollohospital;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 import com.xworkz.hospitalapp.petient.Patient;
 
@@ -15,8 +15,9 @@ public class AppolloTester {
 			AppolloHospital appollohoapital = new AppolloHospital(size);
 			
 			Patient patient =new Patient();
-			patient.patientName = "Bhagyamma";
-			patient.age =25;
+			
+			patient.patientName = "mani";
+			patient.age =22;
 			patient.adress ="Nelmangala";
 			patient.gender = patient.gender;
 			patient.displayInfo();

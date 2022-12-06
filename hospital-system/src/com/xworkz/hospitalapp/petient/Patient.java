@@ -3,7 +3,8 @@ package com.xworkz.hospitalapp.petient;
 import com.xworkz.hospitalapp.Gender;
 
 public class Patient {
-	
+
+
 	public String patientName ;
 	public String adress ;
 	public  Gender gender ;
@@ -20,7 +21,7 @@ public class Patient {
 	}
 
 	public Patient() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public void displayInfo() {

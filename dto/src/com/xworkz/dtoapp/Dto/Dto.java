@@ -9,7 +9,7 @@ import lombok.Setter;
 
 
 
-
+// DTO means 
 public class Dto {
 	
 	

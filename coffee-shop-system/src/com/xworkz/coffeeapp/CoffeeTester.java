@@ -10,8 +10,9 @@ public class CoffeeTester {
 		
 		Coffee co=new Coffee();
 		co.amount=1245;
-		
-		
+		co.coffee=bru;
+		System.out.println("costomer name:"+co.amount);
+		System.out.println("Brue Cofee:"+co.coffee);
 		
 		
 		
