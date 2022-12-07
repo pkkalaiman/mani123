@@ -5,7 +5,7 @@ public enum Gender {
 	male, female, transgender, others;
 	
 	
-	class GFG {
+	public class GFG {
 		
 		//main driver method
 		

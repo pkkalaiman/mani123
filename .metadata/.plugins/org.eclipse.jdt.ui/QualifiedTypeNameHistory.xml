@@ -36,10 +36,10 @@
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.petient.Patient"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.Gender"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
-    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Hospital"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.patient.Patient"/>
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Gender.Gender"/>
+    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Hospital"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
 </qualifiedTypeNameHistroy>

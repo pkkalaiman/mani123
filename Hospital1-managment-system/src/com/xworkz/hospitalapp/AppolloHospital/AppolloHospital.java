@@ -7,6 +7,9 @@ import com.xworkz.hospitalapp.hospital.patient.Patient;
 public class AppolloHospital extends Hospital {
 	
 	public  Patient[] patients;
+	
+	Patient[] newPatients;
+	
 	int index;
 	
 
@@ -64,8 +67,6 @@ public class AppolloHospital extends Hospital {
 	}
 	
 	//*****************************************************************************************************************************************************************************************************
-	
-	
 	
 	
 	
@@ -163,8 +164,61 @@ public class AppolloHospital extends Hospital {
 				 System.out.println("Gender not found");
 			 }
 		 } 
+ 			
 	 }
 	 
-//******************************************************************************************************************************************	
+	public boolean updateAddressByName(String name, String newPatientAddress) {
+		
+		boolean isUpdate =false;
+		
+		System.out.println("Inside Ubdate PatientAddressByName");
+		System.out.println("No of Parameters : 2 :1) param patientName(String) 2) param patientAddress");
+		
+		for(int i=0; i < patients.length; i++) {
+			
+			if(patients[i].getName().equals(name)) {
+				
+				System.out.println("Patient name is macthed.. proce with ubdating the address");
+				patients[i].setAddress(newPatientAddress);
+				isUpdate =true;
+				
+			}
+			
+		}
+		return isUpdate;	
+	}
+		
+		public boolean deletePatientByName(String patientName) {
+			
+			boolean isDeleted =false;
+			
+			newPatients =new Patient[patients.length-1];
+			
+			for(int i=0, k=0; i< patients.length; i++) {
+				
+				if(!patients[i].getName().equals(patientName)) {
+					
+					newPatients[k++] =patients[i];
+					
+					isDeleted=true;
+				}
+			}
+			
+			//System.out.println(Arrays.toString(newPatients);
+			
+			return isDeleted;
+			
+		}
+	
+		
+		public void getAllnewPatients() 
+		{
+			System.out.println("list of patientes are :");
+			for(int i=0;i<patients.length;i++)
+			{
+				System.out.println(newPatients[i].getName()+" "+newPatients[i].getAge()+" "+newPatients[i].getAddress()+" "+newPatients[i].getGender());
+			}
+		}
+		
 
 }

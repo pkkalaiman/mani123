@@ -2,6 +2,7 @@ package com.xworkz.hospitalapp.AppolloHospital;
 
 import java.util.Scanner;
 
+import com.xworkz.hospitalapp.hospital.Hospital;
 import com.xworkz.hospitalapp.hospital.Gender.Gender;
 import com.xworkz.hospitalapp.hospital.patient.Patient;
 
@@ -16,8 +17,6 @@ public class AppolloTester {
 		int size =sc.nextInt();
 		
 		AppolloHospital appoloHospital = new AppolloHospital(size);
-		
-		
 		
 		for(int i=0;i<size;i++) {
 			
@@ -40,12 +39,10 @@ public class AppolloTester {
 		
 		appoloHospital.addPatient(patient);
 		
-
-		
-
 		}
 		
-		//appoloHospital.getAllPatients();
+		
+		/*  appoloHospital.getAllPatients();
 
 		
 		System.out.println("Get Patient Detailes by name");
@@ -68,8 +65,30 @@ public class AppolloTester {
 
 		System.out.println("Get Patient Name by using Gender");
 		appoloHospital.getGenderBygenderName(sc.next());
-		
+	*/	
 
+	
+	/*	for(int i=0;i<size;i++) {
+			
+		Patient patient =new Patient(null, size, null, null);
+		
+		System.out.println("Enter the updateAddressByName");
+		appoloHospital.getAllPatients();
+		
+		AppolloHospital UpdateAgeByName (name,newAge);
+		
+		}
+		*/
+		
+		
+		System.out.println("Enter the patient Name to Delete");
+		String patientName = sc.next();
+		
+		appoloHospital.deletePatientByName(patientName);
+		
+		appoloHospital.getAllnewPatients();
+		
+		
 		
 	sc.close();	
 	}

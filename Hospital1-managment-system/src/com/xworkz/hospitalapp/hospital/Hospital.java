@@ -15,9 +15,13 @@ public class Hospital {
 		boolean isAdmitted=false;
 		
 		if(isTreatmentRequired==true) {
+			
 			if(isEmergency ==true) {
+				
 				this.patient=patient;
+				
 				patient.displayInfo();
+				
 				System.out.println("Patient can be allowed in original in general ward");
 				
 				
