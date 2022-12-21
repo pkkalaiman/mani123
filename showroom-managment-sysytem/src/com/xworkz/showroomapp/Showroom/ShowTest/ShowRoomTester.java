@@ -57,6 +57,9 @@ public static void main(String[] args) {
 		System.out.println("Enetr manager Gender to search");
 		sw.getmanagerByGender(Gender.valueOf(sc.next()));
 		
+		System.out.println("Enter manager role to search");
+		sw.getManagerNameByRole(sc.next());
+		
 		System.out.println("Enter manager to search manager name");
 		sw.getManagerNameByGender(Gender.valueOf(sc.next()));
 		
@@ -79,9 +82,11 @@ public static void main(String[] args) {
 		System.out.println("enter manager age to delete");
 		sw.deleteByAge(sc.nextInt());
 		
+		
 		System.out.println("Enetr manager gender to delete ");
 		sw.deleteByGender(Gender.valueOf(sc.next()));
 		sw.getNewManager();
+		
 		
 		
 		System.out.println("Enter manager Gender to delete");

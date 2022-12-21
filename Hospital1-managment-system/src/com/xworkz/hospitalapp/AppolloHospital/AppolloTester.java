@@ -42,7 +42,7 @@ public class AppolloTester {
 		}
 		
 		
-		/*  appoloHospital.getAllPatients();
+		  appoloHospital.getAllPatients();
 
 		
 		System.out.println("Get Patient Detailes by name");
@@ -65,20 +65,20 @@ public class AppolloTester {
 
 		System.out.println("Get Patient Name by using Gender");
 		appoloHospital.getGenderBygenderName(sc.next());
-	*/	
+		
 
 	
-	/*	for(int i=0;i<size;i++) {
+		for(int i=0;i<size;i++) {
 			
 		Patient patient =new Patient(null, size, null, null);
 		
 		System.out.println("Enter the updateAddressByName");
 		appoloHospital.getAllPatients();
 		
-		AppolloHospital UpdateAgeByName (name,newAge);
+		//AppolloHospital UpdateAgeByName (name,newAge);
 		
 		}
-		*/
+		
 		
 		
 		System.out.println("Enter the patient Name to Delete");

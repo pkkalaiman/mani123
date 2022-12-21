@@ -1,6 +1,6 @@
 package com.xworkz.hospitalapp.AppolloHospital;
 
-import com.xworkz.hospitalapp.hospital.Hospital;
+import com.xworkz.hospitalapp.hospital.Hospital; 
 import com.xworkz.hospitalapp.hospital.Gender.Gender;
 import com.xworkz.hospitalapp.hospital.patient.Patient;
 
@@ -47,8 +47,8 @@ public class AppolloHospital extends Hospital {
 	//**********************************************************************************************************************************************************************************
 	public void getPatientByName(String PatientName)
 	{
-		System.out.println("inside getPatientName");
-		System.out.println("no of Patients : 1: patientName(Stsring)");
+		System.out.println("inside getPatientbyName");
+		System.out.println("no of Patients : 2: patientName(Stsring)");
 		
 		for(int i=0;i<patients.length;i++)
 		{
@@ -60,7 +60,7 @@ public class AppolloHospital extends Hospital {
 
 				
 			}else {
-				System.out.println("No Patient Found");
+				System.out.println("No of patient name is added");
 			}
 		}
 		
@@ -91,7 +91,7 @@ public class AppolloHospital extends Hospital {
 				
 				
 			}else {
-				System.out.println("It Dose Not Match");
+				System.out.println("It Dosen't Match");
 			}
 		}
 		
@@ -102,7 +102,7 @@ public class AppolloHospital extends Hospital {
 	
 	public void getPatientByGender(Gender gender) {
 		System.out.println("inside getPatientage");
-		System.out.println("no of Patients : 1: patientage(age)");
+		System.out.println("no of Patients : 2: patientage(age)");
 		
 		for(int i=0;i<patients.length;i++) {
 			
@@ -202,9 +202,10 @@ public class AppolloHospital extends Hospital {
 					
 					isDeleted=true;
 				}
+				//System.out.println(patients.toString(newPatients));
+				
 			}
 			
-			//System.out.println(Arrays.toString(newPatients);
 			
 			return isDeleted;
 			

@@ -143,6 +143,18 @@ public class ShowRoom {
 		
 	}
 	
+	public void getManagerNameByRole(String role) {
+		System.out.println("Inside get by the Role");
+		
+		for(int i=0; i < managers.length; i++) {
+			if(managers[i].getRole().equals(role)) {
+				
+				System.out.println("manager found");
+				System.out.println(this.newManagers[i].getRole());
+			}
+		}
+	}
+	
 	public void getGenderBymanagerName(Gender gender2) {
 		
 		System.out.println("Inside get Gender By Name");
@@ -240,6 +252,7 @@ public class ShowRoom {
         			 newManagers[k++] = managers[i];
         			 
         			 isDelete = true;
+        			 
         			 
         		 }
         		 

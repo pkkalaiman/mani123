@@ -13,7 +13,7 @@ public class Atm {
 	
 	public Atm() {
 		
-		
+		System.out.println("welcome to atm");
 	}
 
 }

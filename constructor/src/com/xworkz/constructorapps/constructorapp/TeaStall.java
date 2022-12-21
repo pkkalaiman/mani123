@@ -4,8 +4,7 @@ public class TeaStall{
 	
 	
 
-	public static final String TeaStall = null;
-	public static final String Teastall = null;
+	
 	public int teastallId;
 	public String name;
 	public String ownerName;
