@@ -10,6 +10,7 @@ import lombok.ToString;
 @ToString
 public class Dto {
 	
+	
 	public Dto() {
 		System.out.println(this.getClass().getSimpleName() + "Class Object is Created");
 	}

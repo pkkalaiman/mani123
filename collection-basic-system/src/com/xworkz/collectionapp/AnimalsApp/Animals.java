@@ -36,6 +36,10 @@ public static void main(String[] args) {
 		
 		System.out.println(col);  // that statement will be all OBJHECT Printing
 		
+		System.out.println(col.remove(an4));
+		
+		System.out.println(col.contains("panda"));
+		
 		System.out.println("Size :"+col.size()); // the statement is printing SIZE method
 		
 		System.out.println("After Clear \n");

@@ -48,14 +48,14 @@ public class Hotel {
 	System.out.println("===============");
 	System.out.println("List of foodNames");
 	for(int i =0; i <foodNames.length; i++) {
-		System.out.println(foodNames[1]);
+		System.out.println(foodNames[i]);
 		
 	}
 			System.out.println("===============");
 			System.out.println("Billing Methods");
 			for(int i =0; i <foodNames.length; i++) {
 				
-				System.out.println(foodNames[1]);
+				System.out.println(foodNames[i]);
 				
 			
 			}

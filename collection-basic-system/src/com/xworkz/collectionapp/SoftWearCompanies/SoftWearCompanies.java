@@ -1,8 +1,9 @@
 package com.xworkz.collectionapp.SoftWearCompanies;
 
-import java.util.ArrayList;
+import java.util.ArrayList; 
 import java.util.Collection;
 import java.util.Iterator;
+
 
 public class SoftWearCompanies {
 	
@@ -68,10 +69,19 @@ public class SoftWearCompanies {
 		Iterator<String> itr=col.iterator();
 		
 		while(itr.hasNext()) {
-			String Elements=itr.next();
+			String element=itr.next();
+			System.out.println(element);
 			
-			System.out.println(Elements);
+			
+			if(element.startsWith("m")) {
+			boolean element1=itr.equals(soft18);
+				System.out.println("Removing Element :"+element);
+				
+				
+			}
+			
+			
 		}
 	}
-
 }
+

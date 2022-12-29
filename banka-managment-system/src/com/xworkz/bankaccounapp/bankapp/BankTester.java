@@ -71,7 +71,7 @@ public class BankTester {
 			savingsAccount2.periodicInterest();
 			System.out.println(savingsAccount2.getBalance())
 			
-		
+			
 			}		
 			
 	}
@@ -79,5 +79,5 @@ public class BankTester {
 	
 	}
 	
-	
+
 }

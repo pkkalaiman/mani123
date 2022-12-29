@@ -1,6 +1,6 @@
 package com.xworkz.hospitalapp.AppolloHospital;
 
-import com.xworkz.hospitalapp.hospital.Hospital; 
+import com.xworkz.hospitalapp.hospital.Hospital;  
 import com.xworkz.hospitalapp.hospital.Gender.Gender;
 import com.xworkz.hospitalapp.hospital.patient.Patient;
 

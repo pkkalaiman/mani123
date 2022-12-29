@@ -1,6 +1,6 @@
 package com.xworkz.hospitalapp.Appollohospital;
 
-import java.util.Scanner; 
+import java.util.Scanner;  
 
 import com.xworkz.hospitalapp.petient.Patient;
 

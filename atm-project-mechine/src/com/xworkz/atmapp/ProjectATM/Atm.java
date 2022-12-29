@@ -1,8 +1,8 @@
 package com.xworkz.atmapp.ProjectATM;
 
-import lombok.Getter;
+import lombok.Getter; 
 import lombok.Setter;
-
+ 
 @Getter
 @Setter
 public class Atm {

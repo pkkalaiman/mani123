@@ -1,8 +1,7 @@
 package com.xworkz.hospitalapp.AppolloHospital;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
-import com.xworkz.hospitalapp.hospital.Hospital;
 import com.xworkz.hospitalapp.hospital.Gender.Gender;
 import com.xworkz.hospitalapp.hospital.patient.Patient;
 
@@ -70,7 +69,7 @@ public class AppolloTester {
 	
 		for(int i=0;i<size;i++) {
 			
-		Patient patient =new Patient(null, size, null, null);
+		Patient patients =new Patient(null, size, null, null);
 		
 		System.out.println("Enter the updateAddressByName");
 		appoloHospital.getAllPatients();

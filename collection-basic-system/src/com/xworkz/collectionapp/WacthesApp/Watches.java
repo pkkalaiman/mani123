@@ -12,8 +12,10 @@ public class Watches {
 		String watch1="TITAN";
 		String watch2="SONOTA";
 		String watch3="PUMA";
+		String watch6="GOLDEN";
 		String watch4="ROLEX";
 		String watch5="GOLDEN";
+		String watch7="GOLDEN";
 		
 		
 		Collection<String> watch=new ArrayList<String>();
@@ -23,6 +25,8 @@ public class Watches {
 		watch.add(watch2);
 		watch.add(watch3);
 		watch.add(watch1);
+		watch.add(watch6);
+		watch.add(watch7);
 		
 		System.out.println("Before Clear \n");
 		
@@ -35,12 +39,33 @@ public class Watches {
 	 Iterator<String> itr=watch.iterator();
 	 
 	 while(itr.hasNext()) {
-	 
 	 String Elements=itr.next();
+	 } 
 	 
-	 System.out.println(Elements);
+	boolean removed= watch.remove("TITAN");
+	 System.out.println("TITAN is removed :"+removed);
 	 
-	}
+	 for(String string: watch) {
+		 System.out.println("Elements :"+string);
+	 }
+	 System.out.println("After removing Size :"+watch.size());
+	 
+
+	 for(String itr1: watch) {
+		boolean start= itr1.startsWith("G");
+		 System.out.println("Starting with in :"+start);
+	 }
+	 
+	 boolean remove=watch.remove("GOLDEN");
+	 
+	 for(String string:watch) {
+		 System.out.println("Starting witch G :"+remove);
+	 }
+	 System.out.println("After Removing size :"+watch.size());
+	 
+	 System.out.println("Elements :"+watch);
+	 
+	
 	 watch.clear();
 	}
 }

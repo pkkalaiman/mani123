@@ -5,6 +5,7 @@ import java.util.Scanner;
 import com.xworkz.hospitalapp.Gender;
 import com.xworkz.hospitalapp.petient.Patient;
 
+
 public class AppolloTester1 {
 
 	public static void main(String[] args) {
@@ -34,6 +35,7 @@ public class AppolloTester1 {
 		appollohospital.getAllPAtients();
 		System.out.println("Enter the patient Name");
 		String patientName =scanner.next();
-		//appollohospital.getPatientByName(patientName);
+		
+		System.out.println("Enter the patient ag :");
 	}
 }

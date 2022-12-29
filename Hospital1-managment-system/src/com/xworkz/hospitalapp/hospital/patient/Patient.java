@@ -68,8 +68,6 @@ public class Patient {
 	}
 	
 	
-	
-	
 	public void displayInfo() {
 		System.out.println("patient Name:"+name);
 		System.out.println("patient age:"+age);

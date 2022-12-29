@@ -1,6 +1,6 @@
 package com.xworkz.hospitalapp.Appollohospital;
 
-import com.xworkz.hospitalapp.hospital.Hospital1;
+import com.xworkz.hospitalapp.hospital.Hospital1; 
 import com.xworkz.hospitalapp.petient.Patient;
 
 public class AppolloHospital<patient> extends Hospital1 {
@@ -50,7 +50,7 @@ public class AppolloHospital<patient> extends Hospital1 {
 		}
 
 		//it is DTO input to this
-		/*public void getPatientByName(String patientName) {
+	/*	public void getPatientByName(String patientName) {
 			
 			System.out.println("Inside getPaientName");
 			System.out.println("No of parameters : 1 : patientName(String");

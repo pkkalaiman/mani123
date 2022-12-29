@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.theatrs.CinemaTheatrs"/>
-    <fullyQualifiedTypeName name="com.wxorkz.bankapp.BankAccount"/>
-    <fullyQualifiedTypeName name="com.xworkz.accountapp.BankAccount"/>
-    <fullyQualifiedTypeName name="com.xworkz.maniaccountapp.ManiAccount"/>
-    <fullyQualifiedTypeName name="com.xworkz.searchingengineerapp.SearchingEngineer"/>
-    <fullyQualifiedTypeName name="com.xworkz.bankaccounapp.bankapp.BankAccount"/>
-    <fullyQualifiedTypeName name="com.xworkz.bankaccounapp.saveingsAccount.SavingsAccount"/>
-    <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Patient"/>
     <fullyQualifiedTypeName name="com.xworkz.tinapp.cocacola.CocaCola"/>
     <fullyQualifiedTypeName name="com.xworkz.tinapp.cocacola.Redbull.RedBull"/>
     <fullyQualifiedTypeName name="com.xworkz.inheritence.Mango"/>
@@ -39,20 +31,33 @@
     <fullyQualifiedTypeName name="com.xworkz.hospitalapp.hospital.Hospital"/>
     <fullyQualifiedTypeName name="com.xworkz.showroomapp.Showroom.ShowRoom"/>
     <fullyQualifiedTypeName name="com.xworkz.abstractionapp.Trasportationapp.TransPortation"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="com.xworkz.abstractionapp.hospitalapp.interfaceapp.Gender"/>
     <fullyQualifiedTypeName name="com.xworkz.abstractionapp.abstraction.Patient"/>
     <fullyQualifiedTypeName name="com.xworkz.stringapp.StringTester"/>
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.xworkz.collectionapp.Collection.Collection"/>
     <fullyQualifiedTypeName name="java.util.TreeSet"/>
-    <fullyQualifiedTypeName name="javax.lang.model.util.Elements"/>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.lang.model.element.Element"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="javax.lang.model.util.Elements"/>
+    <fullyQualifiedTypeName name="com.xworkz.softwearapp.Gender.Gender"/>
+    <fullyQualifiedTypeName name="com.xworkz.softwearapp.Employe.Employee"/>
+    <fullyQualifiedTypeName name="com.xworkz.removingapp.DamsApp1.Damse1"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="java.security.cert.CollectionCertStoreParameters"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.xworkz.studentapp.StudentClass"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="com.xworkz.dtoapp.CollectionDtoApp.SanitizerDto"/>
+    <fullyQualifiedTypeName name="com.xworkz.dtoapp.CollectionDtoApp.SnitiZerCollection"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
 </qualifiedTypeNameHistroy>
