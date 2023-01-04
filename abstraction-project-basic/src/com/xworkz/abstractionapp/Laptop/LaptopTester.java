@@ -6,6 +6,10 @@ public class LaptopTester {
 		
 		Laptop l =new LaptopCompany();
 		l.doLaptop();
+		
+		for (String string : args) {
+			System.out.println(string);
+		}
 	}
 
 }

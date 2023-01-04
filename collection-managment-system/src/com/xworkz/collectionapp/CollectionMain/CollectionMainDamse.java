@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
+import javax.lang.model.element.Element;
+
 public class CollectionMainDamse {
 	
 	public static void main(String[] args) {
@@ -228,8 +230,8 @@ public class CollectionMainDamse {
 			
 			char ch[]=itr4.toCharArray();
 			
-			if(ch.length == 15) {
-				if(ch.length==10) {
+			if(ch.length == 16) {
+				if(ch.length==15) {
 					continue;
 				}
 			}
@@ -270,19 +272,21 @@ public class CollectionMainDamse {
 			str.reverse();
 			
 			String pop=str.toString();
-			if(iterator.equals(stri)) {
+			if(str.equals(pop)) {
 				
 				System.out.println(" HE IS POLYNDREM :"+pop);
 	   }
-		
 		else {
 		System.out.println("IS NOT A POLYNDREM :"+pop);
+		}
+			
+		}
+		
+		System.out.println("After Polyndrem Size :"+dames.size());
 		
 		System.out.println();
 		
-		}
-	
-	}
+		
 	
 		
 		

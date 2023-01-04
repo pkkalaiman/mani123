@@ -2,7 +2,7 @@ package com.xworkz.abstractionapp.abstraction;
 
 public class ShopTester {
 	
-	// interface we can not creat in object
+	// interface we can not create in object
 	
 	public static void main(String[] args) {
 		
@@ -12,6 +12,14 @@ public class ShopTester {
 		
 		Shop s =new BikeServiceShop();
 		s.doBissiness();
+	
+		
+		
+		for (String bike : args) {
+			
+			System.out.println(bike);
+
+		}
 	}
 
 }

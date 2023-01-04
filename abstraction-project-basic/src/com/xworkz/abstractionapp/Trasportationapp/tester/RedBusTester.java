@@ -17,9 +17,9 @@ public class RedBusTester {
 		
 		trans.bookings(buscontract);
 		
-		/*System.out.println(buscontract.conditionbOfBus());
-		System.out.println(buscontract.minBookinggs());
-		System.out.println(trans.bookings(buscontract));*/
+//		System.out.println(buscontract.conditionbOfBus());
+//		System.out.println(buscontract.minBookinggs());
+//		System.out.println(trans.bookings(buscontract));
 	}
 
 }

@@ -6,7 +6,7 @@ public interface Shop {
 	//method does not connect in any body
 	public void doBissiness();
 	
-	//public void helpPeople();
+	public void helpPeople();
 	
 
 }

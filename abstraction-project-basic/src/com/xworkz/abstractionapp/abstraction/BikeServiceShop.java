@@ -5,9 +5,9 @@ public class BikeServiceShop implements Shop{
 	
 	//multiple class can implement is one implement
 	
-	// when yo dont want all object u can creat in abstract class
+	// when you don't want all object u can create in abstract class
 	
-	//this abstract ke words method
+	//this abstract key words method
 	//public abstract void giveService1();
 	
 	//this is congcreat method
@@ -17,6 +17,11 @@ public class BikeServiceShop implements Shop{
 	public void doBissiness() {
 		System.out.println("Shop comming in Bike Service");
 		
+		
+	}
+
+	public void helpPeople() {
+		// TODO Auto-generated method stub
 		
 	}
 

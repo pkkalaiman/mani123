@@ -8,9 +8,11 @@ public class AppleTester {
 		Apple app =new Apple();
 		app.frouitStall();
 		app.newBrance();
+		app.FrouitShop();
 		
-		System.out.println(app.equals(args));
+		System.out.println(app.equals(app));
 		System.out.println(app.frouitStall());
+		System.out.println(app.equals(app));
 		
 	}
 }

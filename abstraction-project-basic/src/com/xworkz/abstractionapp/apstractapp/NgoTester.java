@@ -6,6 +6,10 @@ public class NgoTester {
 		
 		Shop s =new NgoContractPersion();
 		s.doBisuness();
+		
+		for (String str : args) {
+			System.out.println(str);
+		}
 	}
 
 }

@@ -75,7 +75,8 @@ public class SoftWearCompanies {
 			
 			if(element.startsWith("m")) {
 			boolean element1=itr.equals(soft18);
-				System.out.println("Removing Element :"+element);
+				System.out.println("Removing Element :"+element.equals(soft1));
+				System.out.println(element1);
 				
 				
 			}

@@ -10,13 +10,19 @@ import lombok.Setter;
 public class Patient {
 
 	private String name;
-	private String age;
+	private int age;
 	private Gender gender;
 	private String address;
 	
 	
-	public Patient(Object object, int size, Object object2, Object object3) {
-		// TODO Auto-generated constructor stub
+	public Patient(String name, int age, Gender gender, String address) {
+			
+		this.name=name;
+		this.age=age;
+		this.address=address;
+		this.gender=gender;
+		
+	
 	}
 
 

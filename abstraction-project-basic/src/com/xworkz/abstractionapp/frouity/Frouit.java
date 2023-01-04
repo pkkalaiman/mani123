@@ -5,6 +5,8 @@ public interface Frouit {
 	public boolean frouitStall();
 	
 	public int newBrance();
+	
+	public boolean FrouitShop();
 		
 	
 
