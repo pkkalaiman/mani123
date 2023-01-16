@@ -24,6 +24,13 @@ public class MallDto {
 		 * for (String string : malls) { System.out.println(string); }
 		 */
 		
+			
+		malls.stream().filter(ele-> ele.endsWith("l"))
+		.collect(Collectors.toList())
+		.forEach(ele->System.out.println(ele));
+		
+		System.out.println();
+		
 		malls.stream().filter(dto -> dto.contains("-"))
 		.collect(Collectors.toList())
 		.forEach(dto->System.out.println(dto));
