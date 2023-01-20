@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=quarkuss/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.airport.service{AirportService.java[AirportService" modifiers="513" timestamp="1674124481878"/>
+    <typeInfo handle="=quarkuss/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.airport.repository{AirportRepo.java[AirportRepo" modifiers="513" timestamp="1674126667981"/>
+    <typeInfo handle="=quarkus/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.soldiers.service{FirstAidDtoService.java[FirstAidDtoService" modifiers="513" timestamp="1674129580745"/>
+    <typeInfo handle="=quarkus/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.soldiers.service{RessortService.java[RessortService" modifiers="513" timestamp="1674148418543"/>
+    <typeInfo handle="=quarkus/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.soldiers.repository{RessortRepo.java[RessortRepo" modifiers="513" timestamp="1674149054674"/>
+    <typeInfo handle="=quarkus/src=/optional=/true=/=/maven.pomderived=/true=/&lt;com.xworkz.soldiers.service{MissileService.java[MissileService" modifiers="513" timestamp="1674150740105"/>
+</typeInfoHistroy>

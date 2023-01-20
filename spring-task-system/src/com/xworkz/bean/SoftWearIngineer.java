@@ -1,6 +1,6 @@
 package com.xworkz.bean;
 
-import org.springframework.beans.factory.annotation.Autowired; 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
@@ -8,28 +8,36 @@ import org.springframework.stereotype.Component;
 public class SoftWearIngineer {
 
 	@Autowired
-	@Qualifier("SoftWearIngineer")
+	@Qualifier("EngineerName")
 	private String name;
+
 	@Autowired
-	@Qualifier("2525.25")
+	@Qualifier("EmployeSalary")
 	private double price;
-	
-	
-	@Autowired
-	public SoftWearIngineer(@Qualifier("name")String name, @Qualifier("2525.25")double price) {
+
+	/*
+	 * @Autowired
+	 * 
+	 * @Qualifier("DevExpierence") private String experience;
+	 * 
+	 * @Autowired
+	 * 
+	 * @Qualifier("wichDevolopper") private String wichDevolopper;
+	 */
+
+	public SoftWearIngineer(String name, double price, String experience, String wichDevolopper) {
 		super();
 		this.name = name;
 		this.price = price;
+		/*
+		 * this.experience = experience; this.wichDevolopper = wichDevolopper;
+		 */
 	}
-	
-	
+
 	@Override
 	public String toString() {
-		return "SoftWearIngineer [name=" + name + ", price=" + price + ", getName()=" + getName() + ", getPrice()="
-				+ getPrice() + "]";
+		return "SoftWearIngineer [name=" + name + ", price=" + price + "experience" + "]";
 	}
-
-
 
 	public String getName() {
 		return name;
@@ -38,6 +46,11 @@ public class SoftWearIngineer {
 	public double getPrice() {
 		return price;
 	}
-	
+
+	/*
+	 * public String getExperience() { return experience; }
+	 * 
+	 * public String getWichDevolopper() { return wichDevolopper; }
+	 */
 
 }

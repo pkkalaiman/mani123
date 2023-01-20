@@ -1,5 +1,8 @@
 package com.xworkz.constructorapps.constructorapp;
 
-public class come {
+public class come{
+	
+	String name;
+	
 
 }

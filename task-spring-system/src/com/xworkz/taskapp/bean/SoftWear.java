@@ -2,11 +2,16 @@ package com.xworkz.taskapp.bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-
+import org.springframework.stereotype.Component;
+@Component
 public class SoftWear {
 
+	@Autowired
+	@Qualifier("Devloppername")
 	private String name;
 
+	@Autowired
+	@Qualifier("Softwearversion")
 	private double version;
 
 	@Autowired
@@ -21,7 +26,7 @@ public class SoftWear {
 		System.out.println("Created SoftWear in No argument class To Spring..");
 	}
 
-	@Autowired
+
 	public SoftWear(String name, double version,String developper, String free) {
 		super();
 		this.name = name;
@@ -52,10 +57,6 @@ public class SoftWear {
 		return version;
 	}
 
-	@Autowired
-	@Qualifier("Sofwearversion")
-	public void setVersion(double version) {
-		this.version = version;
-	}
+	
 
 }

@@ -1,3 +1,4 @@
+
 package com.xworkz.taskapp.bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +18,7 @@ public class Airport {
 	}
 
 	@Autowired
-	public Airport(String name,@Qualifier("id") int id,@Qualifier("price") double price, @Qualifier("noOfFlight") int noOfFlight) {
+	public Airport(@Qualifier("name")String name,@Qualifier("id") int id,@Qualifier("price") double price, @Qualifier("noOfFlight") int noOfFlight) {
 		super();
 		this.name = name;
 		this.id = id;

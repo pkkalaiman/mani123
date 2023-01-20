@@ -1,9 +1,8 @@
 package com.xworkz.taskapp.configuration;
 
-import org.springframework.context.annotation.Bean; 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-
 
 @Configuration
 @ComponentScan("com.xworkz.taskapp.bean")
@@ -48,7 +47,7 @@ public class AirportConfiguration {
 	}
 
 	@Bean
-	public double Sofwearversion() {
+	public double Softwearversion() {
 		System.out.println("Verion created to Spring ");
 		return 657.9;
 	}
@@ -65,5 +64,21 @@ public class AirportConfiguration {
 		return "WednesDay";
 
 	}
-
+	
+/****************************************************************************************/
+	@Bean
+	public String MallName() {
+		System.out.println("Mall name registered in Spring");
+		return "NowrangMall";
+	}
+	@Bean
+	public int noOfMalls() {
+		System.out.println("Registered in Mall no");
+		return 33;
+	}
+	@Bean
+	public String PlaceofMall() {
+		System.out.println("Redistered in MMall");
+		return "Rajajinagar";
+	}
 }
