@@ -12,7 +12,6 @@ import org.springframework.context.annotation.Configuration;
 public class GhostConfiguration {
 
 	public GhostConfiguration() {
-
 		System.out.println("configuration is registered with spring");
 	}
 
@@ -46,7 +45,7 @@ public class GhostConfiguration {
 		System.out.println("price is registered with spring");
 		return 4;
 	}
-	
+
 //************************* FINISH NEWS PAPPER ***********************************
 
 	@Bean
@@ -78,9 +77,9 @@ public class GhostConfiguration {
 		System.out.println("poisionous is registered with spring");
 		return true;
 	}
-	
+
 //**************************** FINISH SNAKE **************************************
-	
+
 	@Bean
 	public String engineName() {
 		System.out.println("engineName is registered with spring");

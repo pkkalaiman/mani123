@@ -3,12 +3,13 @@ package com.xworkz.terrorist.boot;
 import com.xworkz.terrorist.dto.TerraristDto;
 
 public class Runner {
-	
+
 	public static void main(String[] args) {
+
+		TerraristDto dto = new TerraristDto();
+
 		
-		TerraristDto dto=new  TerraristDto();
-		dto.setCreatedby("p k mani");
-		dto.setName("Kaliman");
+		dto.setName("Kaalaiman");
 		dto.setAge(22);
 		dto.setCountry("Indian");
 		dto.setPrision(true);

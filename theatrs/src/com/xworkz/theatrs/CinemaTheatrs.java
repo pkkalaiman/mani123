@@ -5,7 +5,7 @@ public class CinemaTheatrs {
 	public int id;
 	public String name;
 	public String location;
-	public String managerName[]=new String [7];
+	public String managerName;
 	
 	
 	public CinemaTheatrs() {
@@ -14,7 +14,7 @@ public class CinemaTheatrs {
 	
 	}
 	
-	public CinemaTheatrs(int id , String name , String location , String[] managerName)
+	public CinemaTheatrs(int id , String name , String location , String managerName)
 	{
 		
 		this();
@@ -26,6 +26,40 @@ public class CinemaTheatrs {
 		
 		
 	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public String getManagerName() {
+		return managerName;
+	}
+
+	public void setManagerName(String managerName) {
+		this.managerName = managerName;
+	}
+	
+	
 	
 	
 	

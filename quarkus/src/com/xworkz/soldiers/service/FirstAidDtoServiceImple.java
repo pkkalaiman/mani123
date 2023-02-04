@@ -36,8 +36,7 @@ public class FirstAidDtoServiceImple implements FirstAidDtoService {
 			System.err.println("Data is contaning validation error");
 			violations.forEach(e->System.err.println(e.getMessage()));
 			return false;
-		}
-		else {
+		}else {
 			System.out.println("Data is valid can save");
 			boolean saved=this.firstAidRepo.Save(dto);
 			System.out.println("saved firstAid" +"  "+ saved);

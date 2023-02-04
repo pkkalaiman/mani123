@@ -3,14 +3,17 @@ package com.xworkz.been;
 import java.time.LocalDate;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Ghost {
 	
 	@Autowired
+	@Qualifier("GhostName")
 	private String name;
 	@Autowired
+	@Qualifier("GhostGender")
 	private String gender;
 	@Autowired
 	private double nailLength;

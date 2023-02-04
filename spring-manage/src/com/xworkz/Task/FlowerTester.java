@@ -14,14 +14,14 @@ public class FlowerTester {
 		System.out.println(flower);
 
 		Flower refOfName = flower.getBean("flower",Flower.class);
-		System.out.println(refOfName);
+		System.out.println(refOfName.getPrice());
 		System.out.println(refOfName.getName());
 		System.out.println(refOfName.getId());
 		
 		System.out.println();
 
 		Flower refOfName1 = flower.getBean(Flower.class);
-		System.out.println(refOfName1);
+		System.out.println(refOfName1.getPrice());
 		System.out.println(refOfName1.getName());
 		System.out.println(refOfName1.getId());
 		

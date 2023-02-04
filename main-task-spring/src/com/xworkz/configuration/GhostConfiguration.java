@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("com.xworkz.been")
 public class GhostConfiguration {
 	
+	
 	public GhostConfiguration() {
 		System.out.println("Created GhostConfiguration");
 	}

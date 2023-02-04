@@ -39,7 +39,7 @@ public class Experience {
 	public String MessiPlayer() {
 		System.out.println("Registered In Player Spring.....");
 		String str = new String();
-		//System.out.println(str);
+		System.out.println(str);
 		return "Messi";
 	}
 	

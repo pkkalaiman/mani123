@@ -14,6 +14,28 @@
 <item elementID="=spring-manage" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=main-task-spring" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=quarkuss" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=manilazer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=food" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=webmall" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674458868079_11" label="servlet" name="servlet">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/server" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bank" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/serverproject" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/republicday" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/webseries" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/king" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/mnc-infocies-company" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/location" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/railwayticket" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/student" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lionserver" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/servermessage" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/lezer" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675421221299_12" label="WebProject" name="WebProject">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/food" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/gova" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666072213524_2" label="Window Working Set" name="Aggregate for window 1666072213524"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666079940896_3" label="Window Working Set" name="Aggregate for window 1666079940896"/>
@@ -25,5 +47,11 @@
 <workingSet IMemento.internal.id="Java Main Sources"/>
 <workingSet IMemento.internal.id="Java Test Sources"/>
 </workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674226302940_10" label="Multiple Working Sets" name="Aggregate:Java Main Sources:spring:">
+<workingSet IMemento.internal.id="Java Main Sources"/>
+<workingSet IMemento.internal.id="spring"/>
+</workingSet>
 <mruList name="spring"/>
+<mruList name="WebProject"/>
+<mruList name="servlet"/>
 </workingSetManager>
