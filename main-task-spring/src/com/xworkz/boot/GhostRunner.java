@@ -17,10 +17,11 @@ public class GhostRunner {
 		container.getBean(Arrays.toString(container.getBeanDefinitionNames()));
 
 		GhostConfiguration refOf = container.getBean(GhostConfiguration.class);
-		System.out.println(refOf.GhostGender());
+		System.out.println(refOf.GhostName());
 		System.out.println(refOf.GhostName());
 		System.out.println(refOf.NailLength());
-		System.out.println(refOf.DateOfDeath());
+		System.out.println(refOf.dateOfDeath());
+		
 
 	}
 }

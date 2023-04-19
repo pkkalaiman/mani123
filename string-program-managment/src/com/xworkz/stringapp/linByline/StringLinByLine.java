@@ -4,13 +4,13 @@ public class StringLinByLine {
 	
 	public static void main(String[] args) {
 		
-		String s="Bangalore is a Bueatifull  City";
+		String s="Bangalore is a Bueatifull City";
 		
 		String arr[] = s.split(" ");
 		
-		for(String i:arr);
-		System.out.println();
-	
+		for(String i:arr) {
+		System.out.println(i);
+		}
 
 }
 }

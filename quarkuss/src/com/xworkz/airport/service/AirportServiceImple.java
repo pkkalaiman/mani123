@@ -41,7 +41,7 @@ public class AirportServiceImple implements AirportService {
 		}else {
 			System.out.println("Data is Valid");
 			boolean saved=airport.ValidateAndSave(dto);
-			System.out.println("Dto Saved :"+dto);
+			System.out.println("Dto Saved :"+saved);
 			
 			return true;
 		}

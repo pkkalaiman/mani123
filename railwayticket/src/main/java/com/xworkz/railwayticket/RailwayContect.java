@@ -32,11 +32,11 @@ public class RailwayContect extends HttpServlet {
 		String dateTime = req.getParameter("DateTime");
 		String TicketPrice = req.getParameter("TicketPrice");
 
-		System.out.println("Name: "+name);
-		System.out.println("RailwayDept: "+DeportmentWebsit);
-		System.out.println("Train Starting: "+StartingTime);
-		System.out.println("Timing: "+dateTime);
-		System.out.println("Price: "+TicketPrice);
+		System.out.println("Name: " + name);
+		System.out.println("RailwayDept: " + DeportmentWebsit);
+		System.out.println("Train Starting: " + StartingTime);
+		System.out.println("Timing: " + dateTime);
+		System.out.println("Price: " + TicketPrice);
 
 		PrintWriter writer = resp.getWriter();
 
@@ -45,6 +45,7 @@ public class RailwayContect extends HttpServlet {
 
 		if (name.length() > 3 && DeportmentWebsit.length() > 12 && StartingTime.length() > 2 && dateTime.length() > 0
 				&& TicketPrice.length() > 1000) {
+
 			writer.print("<spam style='color : yellow'>");
 			writer.print("Signed Up Seccessfulyy...");
 			writer.print("</spam>");

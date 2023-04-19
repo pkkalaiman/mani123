@@ -15,8 +15,8 @@ public class BankTester {
 			
 			
 			BankAccount friendsAccouont=new BankAccoount() {
-			System.out.println("Account balance after withDraw:"+draw.getbalance);
 			draw.deposit(10000);
+			System.out.println();
 			
 			draw.withDraw(2000);
 			System.out.println("Account balance after withDraw:"+draw.getbalance);
@@ -72,8 +72,9 @@ public class BankTester {
 			System.out.println(savingsAccount2.getBalance())
 			
 			
-			}		
+					
 			
+		}
 	}
 	
 	

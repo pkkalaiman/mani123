@@ -6,12 +6,16 @@
 <meta charset="ISO-8859-1">
 <title>X-workz</title>
 </head>
-<body style="color:green">
+<body style="color:blue">
 
 <h1 style="color:DeepPink">Successfully!!!.....</h1>
 <h2>
 <span>
-${name },${cruise}, ${entrFees}, ${freeFood},${freeAlcohol}
+Name : ${name },<br> 
+Croiuse : ${cruise}, <br>
+EntryFees : ${entrFees},<br> 
+Free Food : ${freeFood},<br>
+Free Alcohol :${freeAlcohol}
 </span>
 </h2>
 

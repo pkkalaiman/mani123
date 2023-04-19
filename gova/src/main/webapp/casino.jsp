@@ -41,17 +41,17 @@
 	<form action="goa" method="post">
 
 		<pre>
-Name<input type="text" name="Name" />
+Name<input type="text" name="Name" /><br>
 
-Cruise<input type="text" name="Cruise" />
+Cruise<input type="text" name="Cruise" /><br>
 
-Entry Fees<input type="number" name="EntryFees" />
+Entry Fees<input type="number" name="EntryFees" /><br>
 
-Free Food Yes<input type="checkbox" name="FreeFood" />
-	 No<input type="checkbox" name="FreeFood" />
+Free Food Yes<input type="checkbox" name="FreeFood" /><br>
+	 No<input type="checkbox" name="FreeFood" /><br>
 	 
-Free Alcohol Yes<input type="checkbox" name="FreeAlcohol" />
-	No<input type="checkbox" name="FreeAlcohol" />
+Free Alcohol Yes<input type="checkbox" name="FreeAlcohol" /><br>
+	No<input type="checkbox" name="FreeAlcohol" /><br>
 		
 </pre>
 

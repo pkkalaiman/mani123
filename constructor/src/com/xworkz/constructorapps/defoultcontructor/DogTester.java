@@ -1,19 +1,19 @@
 package com.xworkz.constructorapps.defoultcontructor;
 
 public class DogTester {
-	
+
 	public static void main(String[] args) {
-		 Dog d =new Dog();
-		  
-	// String Dog(d.name, d.age, d.color) {
-			
-		//}
+		Dog d = new Dog();
+		d.name = "Mani";
+		d.age = 22;
+		d.color = "Blue";
 		
+		System.out.println(d);
+
 	}
 
-	private static void Dog(String name, int age, String color) {
-		
-	
+	public  void Dog(String name, int age, String color) {
+
 		
 	}
 

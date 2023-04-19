@@ -19,8 +19,8 @@ public class Runner {
 		System.out.println(refOfSoft);
 		System.out.println(refOfSoft.getName());
 		System.out.println(refOfSoft.getPrice());
-		/*System.out.println(refOfSoft.getExperience());
-		System.out.println(refOfSoft.getWichDevolopper());*/
+		System.out.println(refOfSoft.getExperience());
+		//System.out.println(refOfSoft.getWichDevolopper());
 	}
 
 }

@@ -19,11 +19,15 @@ public class SwapingElement {
 		
 		System.out.println("the original lilst :"+list);
 		System.out.println("Before Swaping Elements :"+list.size());
-		System.out.println(" ");
+		System.out.println("==================== ");
 		Collections.swap(list, 0, 2);
 		System.out.println("Swapping elements :"+list);
 		System.out.println("Aftrer Swapping Elements :"+list.size());
 		
+		System.out.println("=========================");
+		Collections.swap(list, 1, 5);
+		System.out.println("Swapping Elements :"+list);
+		System.out.println("Before Swapping Another Elements :"+list.size());
 		
 	}
 

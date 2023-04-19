@@ -12,15 +12,15 @@ public class Integer {
 		String str2 = Integer.toString(b);
 		
 		
-		System.out.println("String str1="+str1);
-		System.out.println("String str2="+str2);
+		System.out.println("String str="+ str1);
+		System.out.println("String str2=" +str2);
 		
 		
 	}
 
 	private static String toString(int a) {
-		
-		return  null;
+		System.out.println("Converting Integer to String");
+		return  "convert String";
 	}
 
 }

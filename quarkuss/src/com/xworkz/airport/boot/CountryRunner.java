@@ -11,15 +11,16 @@ public class CountryRunner {
 
 	public static void main(String[] args) {
 		
-		CountryDto dto=new CountryDto("Dharmapuri", -29);
+		CountryDto dto=new CountryDto("Dharmapuri", 29);
 		 
 		
 		ApplicationContext container=new AnnotationConfigApplicationContext(AirportConfiguration.class);
 		CountryService service=container.getBean(CountryService.class);
 		
 	    boolean saved=	service.ValidateAndSave(new CountryDto());
-	    
+	   
 	    System.out.println("Saved :"+dto);
+	    System.out.println("saved :"+saved);
 
 	}
 

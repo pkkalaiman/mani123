@@ -3,7 +3,6 @@
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666072201384_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666072201416_1" label="Java Test Sources" name="Java Test Sources"/>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674122315773_9" label="spring" name="spring">
-<item elementID="=main-spring" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=quarkus" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=spring-quarkus-project" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=spring-spring" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -17,6 +16,8 @@
 <item elementID="=manilazer" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=food" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=webmall" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Forrest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=Festivel" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1674458868079_11" label="servlet" name="servlet">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/server" type="4"/>
@@ -36,6 +37,24 @@
 <workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675421221299_12" label="WebProject" name="WebProject">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/food" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/gova" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/kerala" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/datashow" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bakery" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/webbakery" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hotel" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/webdatabase" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/valentense" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/bigbasket" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Aeroplane" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Mani-Mobile" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Mobile" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/myproject" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/final-project" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SingIn-project" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Application-Mani" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1679123299836_16" label="mobile" name="mobile">
+<item elementID="=Mobile" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666072213524_2" label="Window Working Set" name="Aggregate for window 1666072213524"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1666079940896_3" label="Window Working Set" name="Aggregate for window 1666079940896"/>
@@ -51,7 +70,10 @@
 <workingSet IMemento.internal.id="Java Main Sources"/>
 <workingSet IMemento.internal.id="spring"/>
 </workingSet>
-<mruList name="spring"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675789008883_13" label="Window Working Set" name="Aggregate for window 1675789008883"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675869059078_14" label="Window Working Set" name="Aggregate for window 1675869059078"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676030735166_15" label="Window Working Set" name="Aggregate for window 1676030735166"/>
 <mruList name="WebProject"/>
 <mruList name="servlet"/>
+<mruList name="spring"/>
 </workingSetManager>

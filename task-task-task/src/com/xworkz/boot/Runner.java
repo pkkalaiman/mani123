@@ -2,6 +2,7 @@ package com.xworkz.boot;
 
 import java.util.Arrays;
 
+import org.springframework.beans.BeanUtils;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -62,5 +63,9 @@ public static void main(String[] args) {
 		System.out.println(g.getDateOfDeth());
 		System.out.println(g.isVisible());
 	
+		
+		NewsPaper papaer=spring.getBean(NewsPaper.class);
+		System.out.println(papaer);
+		BeanUtils.copyProperties(spring, papaer);
 	}
 }

@@ -1,6 +1,6 @@
 package com.xworkz.configuration;
 
-import java.time.LocalDate;
+import java.time.LocalDate; 
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,6 +14,7 @@ public class GhostConfiguration {
 	public GhostConfiguration() {
 		System.out.println("Created GhostConfiguration");
 	}
+	
 	@Bean
 	public String GhostName() {
 		System.out.println("Registered In GhostName in  Spring");
@@ -30,7 +31,7 @@ public class GhostConfiguration {
 		return 2.2;
 	}
 	@Bean
-	public LocalDate DateOfDeath() {
+	public LocalDate dateOfDeath() {
 		System.out.println("Registered in DateOfDeath Spring");
 		return LocalDateOf(2012,5.6);
 	}

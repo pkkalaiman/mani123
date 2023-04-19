@@ -18,6 +18,9 @@ public static void main(String[] args) {
 		String an8="PANDA";
 		String an9="FOX";
 		String an10="HORSE";
+		String an11="HORSE";
+		String an12="HORSE";
+		
 		
 		Collection<String> col=new ArrayList<String>();
 		
@@ -31,12 +34,13 @@ public static void main(String[] args) {
 		col.add(an6);
 		col.add(an4);
 		col.add(an3);
+		col.add(an11);
+		col.add(an12);
 		
-		System.out.println("Before Clear \n"); // ( you want space u can use this \n)
-		
-		System.out.println(col);  // that statement will be all OBJHECT Printing
+		System.out.println("Before Clear :"+col); // ( you want space u can use this \n)
 		
 		System.out.println(col.remove(an4));
+		System.out.println("After Clear :" +col);
 		
 		System.out.println(col.contains("panda"));
 		

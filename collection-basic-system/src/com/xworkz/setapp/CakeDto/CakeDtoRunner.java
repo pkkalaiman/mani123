@@ -13,8 +13,8 @@ public class CakeDtoRunner {
 
 		Set<CakeDto> list = new LinkedHashSet<CakeDto>();
 
-		list.add(cakeDto2); // hasCode --> get bucket number
-		list.add(cakeDto1);  // hasCode
+		list.add(cakeDto1); // hasCode --> get bucket number
+		list.add(cakeDto2);  // hasCode
 
 		System.out.println(list);
 

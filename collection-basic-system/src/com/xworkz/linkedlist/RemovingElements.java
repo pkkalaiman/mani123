@@ -12,6 +12,7 @@ public class RemovingElements {
 		list.add("Harish");
 		list.add("Jagathiesh");
 		list.add("Karnan");
+		list.add("Harish");
 		
 		System.out.println("Before Removing :"+list);
 		

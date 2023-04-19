@@ -24,11 +24,13 @@ public class EngineerConfiguration {
 		return 23456.67;
 	}
 
+	@Bean
+	public int DevExpierence() {
+		System.out.println("Registered in devolopper Languadge to Spring");
+		return 12;
+	}
+
 	/*
-	 * @Bean public String DevExpierence() {
-	 * System.out.println("Registered in devolopper Languadge to Spring"); return
-	 * "9 years"; }
-	 * 
 	 * @Bean public String wichDevolopper() {
 	 * System.out.println("Registered in Expiereince in Spring"); return "JAVA"; }
 	 */
