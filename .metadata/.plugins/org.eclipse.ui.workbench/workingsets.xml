@@ -52,6 +52,9 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/final-project" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SingIn-project" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Application-Mani" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/JDBC-Working" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Project-Mani" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Tata-Application" type="4"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1679123299836_16" label="mobile" name="mobile">
 <item elementID="=Mobile" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
@@ -74,6 +77,6 @@
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1675869059078_14" label="Window Working Set" name="Aggregate for window 1675869059078"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1676030735166_15" label="Window Working Set" name="Aggregate for window 1676030735166"/>
 <mruList name="WebProject"/>
-<mruList name="servlet"/>
 <mruList name="spring"/>
+<mruList name="servlet"/>
 </workingSetManager>

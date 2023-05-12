@@ -16,6 +16,8 @@
 	<span>${e.getmessage}</span>
 </c:forEach>
 
+<h1 style="color:green">${message}</h1>
+
  <h2 align="center"><a href="index.jsp">Home</a></h2> 
 
 <form action="project" method="post">

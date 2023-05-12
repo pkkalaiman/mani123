@@ -14,9 +14,9 @@ public class BankTester {
 			draw.withDraw(250);
 			
 			
-			BankAccount friendsAccouont=new BankAccoount() {
+			BankAccount friendsAccouont=new BankAccount() {
 			draw.deposit(10000);
-			System.out.println();
+			System.out.println("created in method");
 			
 			draw.withDraw(2000);
 			System.out.println("Account balance after withDraw:"+draw.getbalance);

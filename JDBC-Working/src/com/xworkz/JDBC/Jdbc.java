@@ -1,4 +1,4 @@
-package com.xworkz.myproject;
+package com.xworkz.JDBC;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,12 +7,13 @@ import java.sql.Statement;
 
 public class Jdbc {
 
+	
 	public static void main(String[] args) {
 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); // it is Loading And Registered Step
 
-			// it will connection in DataBase Step ("url", "name", "Password")
+			// it will connection in DataBase Step       (    "url",                        "name", "Password")
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mani", "root", "Xworkz@123");
 
 			// it is Create in Statement
@@ -40,4 +41,5 @@ public class Jdbc {
 
 	}
 
+	
 }

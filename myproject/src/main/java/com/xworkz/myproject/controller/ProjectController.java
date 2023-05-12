@@ -34,12 +34,12 @@ public class ProjectController {
 
 	@PostMapping("/project")
 	public String onProject(ProjectDTO dto, Model model) {
-		System.out.println("Running in onProject in PostMappings");
+		System.out.println("Running in onProject 	 in PostMappings");
 		System.out.println("Dto :" + dto);
 
 		Set<ConstraintViolation<ProjectDTO>> violation = this.projectService.ValidateAndSave(dto);
 
-		if (!violation.isEmpty()) {
+		if (violation !=null && !violation.isEmpty()) {
 			System.out.println("No Vioaltion Controll go to SuccessPage...");
 			model.addAttribute("message", "Data is Saved");
 			return "Success";

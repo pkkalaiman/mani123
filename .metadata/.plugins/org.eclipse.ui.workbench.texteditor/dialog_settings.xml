@@ -8,6 +8,8 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="8080"/>
 		<list key="findhistory">
+			<item value="l"/>
+			<item value="log.info"/>
 			<item value="8088"/>
 			<item value="name"/>
 			<item value="valentens"/>
